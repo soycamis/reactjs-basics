@@ -1,5 +1,5 @@
 import React from "react";
-import BadgeList from "../components/BadgeList";
+import BadgeList from "../components/BadgesList";
 
 class Badges extends React.Component {
   state = {

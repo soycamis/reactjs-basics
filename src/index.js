@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 
 import BadgeNew from "./pages/BadgeNew";
-// import Badges from "./pages/Badges"
+// import Badges from "./pages/Badges";
 
 import * as serviceWorker from "./serviceWorker";
 
