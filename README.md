@@ -1,3 +1,5 @@
+Deployment preview [here](https://soycamis.com/reactjs-basics/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
