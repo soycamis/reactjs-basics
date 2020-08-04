@@ -1,10 +1,12 @@
 import React from "react";
 
+import "./styles/BadgeForm.css";
+
 class BadgeForm extends React.Component {
   render() {
     return (
-      <section>
-        <h1>New Badge</h1>
+      <section className="BadgeForm__container">
+        <h1>New Badge!</h1>
         <form name="newBadge">
           <div>
             <label htmlFor="name">Name:</label>
@@ -51,7 +53,7 @@ class BadgeForm extends React.Component {
           </div>
 
           <div>
-            <input type="submit" value="Save" />
+            <input className="Index__Link" type="submit" value="Save" />
           </div>
         </form>
       </section>
