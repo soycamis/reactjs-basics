@@ -14,9 +14,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route exact path="/" component={Index} />
-        <Route exact path="/badges" component={Badges} />
-        <Route exact path="/badges/new" component={BadgeNew} />
+        <Route exact path="/reactjs-basics/" component={Index} />
+        <Route exact path="/reactjs-basics/badges" component={Badges} />
+        <Route exact path="/reactjs-basics/badges/new" component={BadgeNew} />
       </Switch>
     </Router>
   </React.StrictMode>,
