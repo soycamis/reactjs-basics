@@ -1,0 +1,28 @@
+.Index__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  padding: 10px;
+
+  box-sizing: border-box;
+}
+
+.Index__Link {
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+
+  background-color: #fff;
+  font-size: 1rem;
+  border: 1px solid #000;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0 2px 2px 0 #000;
+}
