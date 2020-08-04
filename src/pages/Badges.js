@@ -1,5 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import BadgeList from "../components/BadgesList";
+
+import "./styles/Badges.css";
 
 class Badges extends React.Component {
   state = {
@@ -26,10 +30,15 @@ class Badges extends React.Component {
   };
   render() {
     return (
-      <section>
+      <section className="BadgesList__container">
         <h1>Badges List!</h1>
         <hr />
-        <div className="BadgeList__container">
+        <div>
+          <Link className="Index__Link" to="/badges/new">
+            Agregar nuevo
+          </Link>
+        </div>
+        <div className="BadgeList__items">
           <BadgeList dataList={this.state.data} />
         </div>
       </section>

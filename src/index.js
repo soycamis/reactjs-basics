@@ -1,15 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import Index from "./pages/Index";
 import BadgeNew from "./pages/BadgeNew";
-// import Badges from "./pages/Badges";
+import Badges from "./pages/Badges";
+
+import "./index.css";
 
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BadgeNew />
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Index} />
+        <Route exact path="/badges" component={Badges} />
+        <Route exact path="/badges/new" component={BadgeNew} />
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
